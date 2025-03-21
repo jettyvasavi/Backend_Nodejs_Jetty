@@ -6,7 +6,7 @@ const firmRoutes=require('./routes/firmRoutes');
 const productRoutes=require('./routes/productRoutes');
 // const cors=require('cors');
 const path=require('path');
-const app=express()
+const app=express();
 const PORT=process.env.PORT||4000;
 require("dotenv").config();
 // app.use(cors())
